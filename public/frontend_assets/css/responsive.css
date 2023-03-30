@@ -1,0 +1,842 @@
+@media (min-width: 1200px) {
+  .resposive-img {
+    display: none;
+  }
+  .saving-and-discount figure {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  header .navbar-brand {
+    height: 95px;
+  }
+  .join-our-network {
+    background-color: #f0efeb;
+  }
+  .social-areas,
+  .main-div .top-div,
+  .top-div p,
+  .join-enrol-sec p {
+    text-align: center;
+  }
+  .top-header {
+    display: block;
+  }
+  header nav ul li {
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 8px 15px 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .main-div,
+  .join-our-network,
+  .saving-and-discount {
+    background-image: unset !important;
+  }
+  .top-div .top-div-btns,
+  .join-enrol-sec .top-div-btns {
+    justify-content: center;
+  }
+  .chat-icon {
+    left: 0;
+    right: 0;
+    top: -65px;
+    margin: 0 auto;
+  }
+  .hesitate-sec {
+    margin: 75px auto 0;
+    width: 95%;
+  }
+  .hesitate-sec .hesitate-quotes {
+    margin-right: 0;
+    text-align: center;
+  }
+  .join-enrol-sec {
+    padding: 10px 0 35px;
+  }
+  .experience-card {
+    padding-bottom: 30px;
+  }
+  .experience-card li {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .saving-and-discount .saving-discount-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 100px 55px 96px;
+  }
+  .how-i-participate,
+  .broker-join-network {
+    background: #f0efeb;
+  }
+  .vision-bg .top-div,
+  .prescription-bg .top-div,
+  .agents-bg .top-div {
+    /*padding-top: 165px;*/
+    padding-bottom: 20px;
+  }
+  .vision-counters ul li {
+    width: 95%;
+  }
+  .prescription-bg .top-div h1 br,
+  .agents-bg .top-div h1 br,
+  .agents-bg .top-div p br {
+    display: none;
+  }
+  .cm-top-mrgn,
+  .news {
+    margin-top: 175px;
+  }
+  .agent-counters ul li {
+    width: 100%;
+  }
+  header nav ul li:last-child {
+    padding-bottom: 20px;
+    border-bottom: none;
+  }
+  header nav ul li a.enrol-btn,
+  header nav ul li a.login-btn {
+    background: #fff;
+    color: #181617;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 0 !important;
+    transition: all 0.3s ease-in-out;
+    /*justify-content: flex-end;*/
+  }
+  header nav ul li a.enrol-btn:hover,
+  header nav ul li a.login-btn:hover {
+    background: #fff;
+    color: #e63b2b;
+  }
+  header .navbar-nav {
+    /*width: 270px;*/
+    /*text-align: right;*/
+    background: #fff;
+    /*max-height: 300px;*/
+    overflow-y: scroll;
+  }
+  header.header-bg {
+    background: transparent;
+  }
+  /* header nav ul li a {
+        text-align: right;
+    }*/
+  header .navbar-fixed ul.navbar-nav {
+    width: 100%;
+    max-height: 100%;
+    /*overflow: unset!important;*/
+  }
+  header .navbar-fixed ul.navbar-nav li a {
+    text-align: center;
+  }
+  header nav.navbar-fixed ul li a.enrol-btn,
+  header nav.navbar-fixed ul li a.login-btn {
+    justify-content: center;
+  }
+  header .navbar-brand img {
+    object-fit: contain;
+    object-position: left;
+  }
+  .main-div .top-div {
+    /*padding-top: 125px;*/
+    padding-bottom: 40px;
+  }
+  .what-we-do .services h2 {
+    font-size: 20px;
+  }
+  .footer-row .footer-row-sec ul li span a {
+    word-break: break-word;
+  }
+  .main-page-wrap {
+    margin-top: 180px;
+  }
+  .enroll-login-credit-form .cards-types,
+  .enroll-login-credit-form .cards-types .form-group {
+    width: 100% !important;
+  }
+  .family-table thead th,
+  .family-table tbody td {
+    width: 163px;
+  }
+  .top-header > div:first-of-type {
+    padding-bottom: 0 !important;
+  }
+  .main-div {
+    padding-top: 10px;
+  }
+}
+@media (max-width: 1023px) {
+  #searchModal .modal-dialog {
+    margin: 30px 15px 15px 15px !important;
+  }
+}
+
+@media screen and (max-width: 991px) and (orientation: landscape) {
+  header .navbar-nav {
+    max-height: calc(100vh - 200px) !important;
+  }
+}
+@media (max-width: 991px) {
+  .provider-card-sec .provider-card {
+    width: 30%;
+  }
+  .hesitate-sec {
+    display: block;
+  }
+  .who-we-are-content p br,
+  .hesitate-quotes p br {
+    display: none;
+  }
+  .footer-row {
+    justify-content: center;
+  }
+  .footer-row .footer-row-sec {
+    width: 30%;
+  }
+  .privacy-policy p {
+    text-align: center;
+  }
+  /*    .providers-bg .top-div {
+        padding: 135px 0 50px;
+    }*/
+  .why-join-provider .provider-card {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .address-detail:last-child {
+    margin-bottom: 20px;
+  }
+  .who-we-are .enrol-btn {
+    max-width: 175px;
+    margin: 0 auto;
+  }
+  header .navbar-nav {
+    /*width: 195px;*/
+  }
+  .counters-network .counter-box1 .count {
+    position: unset;
+    transform: unset;
+  }
+  header nav ul li {
+    padding: 4px 15px 4px 0;
+  }
+  .address-detail ul li.home-address i {
+    padding-top: 6px;
+  }
+  .address-detail ul li.fon i {
+    padding-top: 8px;
+  }
+  #faq .card .card-header .btn-header-link:after {
+    top: 13px;
+  }
+  .footer-row .footer-row-sec:nth-child(4) figure,
+  .footer-row .footer-row-sec:nth-child(5) figure {
+    height: 158px;
+    margin-top: 25px;
+  }
+  .footer-row .footer-row-sec figure img.ftr-logo {
+    object-fit: contain;
+  }
+  .footer-row .footer-row-sec .clinical br {
+    display: none;
+  }
+  .footer-row-sec h4 {
+    font-size: 20px;
+  }
+  footer {
+    padding-bottom: 15px;
+  }
+  .footer-row {
+    padding: 15px 0px 5px;
+  }
+  .footer-row .footer-row-sec ul li span a {
+    word-break: keep-all;
+  }
+  .quick-jump {
+    padding: 30px 20px 30px 20px;
+  }
+  .share-story {
+    display: block;
+  }
+  .story-icons {
+    margin-top: 15px;
+  }
+  /*211126*/
+
+  #newmemberprofile .form.enrol-login-form {
+    display: inherit !important;
+    width: 100%;
+  }
+  #newmemberprofile .form.enrol-login-form .form-group {
+    width: 100%;
+    padding-right: 0px;
+  }
+  #newmemberprofile .select-wrap {
+    width: unset;
+  }
+  .enrol-login-form .form-group input {
+    max-width: unset;
+  }
+  .cs-dob-div select.form-control {
+    max-width: unset;
+    margin-right: 0;
+    width: 100%;
+  }
+  .cs-dob-div .form-group {
+    width: 100% !important;
+    padding-right: 0px !important;
+  }
+  .view-edit-cstm-wrap .cs-right {
+    padding-top: 10px;
+  }
+  .enrolled-login-form-separator {
+    margin-top: 22px;
+    display: inline-block;
+  }
+  .provider-profile-wrapper#newmemberprofile .form.enrol-login-form {
+    display: flex !important;
+  }
+  .provider-profile-wrapper#newmemberprofile .enrol-login-form .form-group {
+    padding-right: 20px;
+  }
+  .provider-profile-wrapper .enrol-login-form .form-group {
+    max-width: calc(50% - 30px);
+  }
+  .provider-profile-outer .enroll-content-wrap {
+    padding-left: 55px;
+  }
+  #member_resetpassword_form #new_password-error {
+    max-width: initial;
+  }
+  #member_resetpassword_form #confirm_password-error {
+    max-width: initial;
+  }
+  .provider-view-offices-outer .enrol-login-form .form-group {
+    width: calc(50% - 30px);
+  }
+  .provider-content-wrap .enrol-login-form .form-group input {
+    max-width: 200px;
+  }
+  .provider-profile-wrapper .enrol-login-form .form-group input {
+    max-width: unset;
+  }
+  .last-password-eye {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .social-areas {
+    margin-bottom: 5px;
+  }
+  .top-header .social-areas a,
+  .counters ul {
+    display: block;
+  }
+  .top-header .important-links ul {
+    margin-top: 10px;
+  }
+  .top-header .important-links ul li {
+    margin: 4px 5px;
+  }
+  .top-header .social-areas a,
+  .top-header .important-links ul li a {
+    font-size: 14px;
+  }
+  .main-div .container,
+  .why-join-provider .container,
+  .counters-network .container,
+  .what-are-benefits .container,
+  .first-canadian .container,
+  .faq-sec .container,
+  .health-and-dental .container,
+  .contact-details .container,
+  .insurance-trend-qstn .container,
+  .privacy-policy-sec .container,
+  .corporate-imgs .container {
+    padding: 0 25px;
+  }
+  header .navbar-brand {
+    height: 65px;
+  }
+  .top-div h2,
+  .join-enrol-sec h2 {
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .top-div h2 br,
+  .top-div p br,
+  .join-enrol-sec p br,
+  .vision-counters ul li br {
+    display: none;
+  }
+  .main-div .top-div {
+    /*padding-top: 165px;*/
+    padding-bottom: 20px;
+  }
+  .hesitate-sec {
+    width: 100%;
+  }
+  .counters ul li {
+    width: 100%;
+  }
+  .counters ul .counter-box:nth-child(2) {
+    margin: 0;
+  }
+  .join-enrol-sec {
+    padding: 20px 0 30px;
+  }
+  .social-areas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .experience-card li {
+    width: 100%;
+  }
+  .why-join-provider .provider-card-sec {
+    margin-top: 15px;
+  }
+  .saving-and-discount .saving-discount-content {
+    padding: 25px 18px 50px;
+  }
+  .count {
+    position: relative;
+  }
+  .vision-counters ul li {
+    padding: 0 20px;
+  }
+  .kit {
+    margin-top: 30px;
+  }
+  .vision-contact-btn {
+    display: block;
+    margin-top: 15px;
+  }
+  #faq .card .card-header .btn-header-link:after {
+    top: 13px;
+  }
+  .share-story {
+    height: 100%;
+    padding: 20px;
+    display: block;
+  }
+  .cm-top-mrgn {
+    margin-top: 162px;
+  }
+  .news-sec-inner ul li h2 {
+    font-size: 35px;
+  }
+  .news-sec-inner .links {
+    margin-top: 20px;
+  }
+  .corporate-imgs .imgg {
+    flex-wrap: wrap;
+  }
+  .corporate-imgs .imgg figure {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .corporate-sec h2 {
+    font-size: 50px;
+  }
+  .address-detail ul li i {
+    padding-top: 7px;
+    padding-right: 8px;
+  }
+  .covid h2 {
+    font-size: 45px;
+  }
+  .services-enroll a {
+    display: block;
+    margin: 0 auto;
+  }
+  .services-enroll a.join-network {
+    max-width: 150px;
+  }
+  .contact-form {
+    padding: 35px 20px 30px;
+  }
+  .contact-details .row {
+    padding-bottom: 25px;
+  }
+  .contact-sec,
+  .news-sec {
+    padding: 0;
+  }
+  .contact-sec ul li h2,
+  .news-sec ul li h2 {
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+  .counter-box2 {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .news-sec ul li h2 {
+    line-height: 50px;
+  }
+  .what-we-do {
+    padding: 35px 0 25px;
+  }
+  .what-we-do .services {
+    margin-top: 0;
+  }
+  .ins-trend {
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+  .ontario-health {
+    margin-top: 15px;
+  }
+  .promote-sec {
+    padding: 5px 12px 15px;
+    margin-bottom: 10px;
+  }
+  .ontario-health .date-year {
+    margin: 25px 0;
+  }
+  .related-post {
+    margin: 15px 0 20px;
+  }
+  .corporate {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .publication .news-sec {
+    padding: 20px 0;
+  }
+  .footer-row-sec figure {
+    width: 85%;
+    margin: 0 auto;
+  }
+  header .navbar-nav {
+    /*width: 130px;*/
+  }
+  .ins-trend h2 a {
+    min-height: unset;
+  }
+  #button {
+    left: 16px;
+  }
+  .footer-row .footer-row-sec:nth-child(4) figure,
+  .footer-row .footer-row-sec:nth-child(5) figure {
+    height: unset;
+    margin-top: 0;
+  }
+  .footer-row-sec h4 {
+    font-size: 17px;
+  }
+  .login-page .form {
+    padding: 30px;
+  }
+  .enrol-login-form {
+    display: inherit !important;
+    width: 100%;
+  }
+  .enrol-login-form .form-group:not(:last-child) {
+    padding-right: 0;
+  }
+  .enrol-btn,
+  .login-btn {
+    padding: 10px 25px !important;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .enroll-content-wrap {
+    padding: 35px;
+  }
+  .main-page-wrap {
+    margin-top: 160px;
+  }
+  .cs-form-new-membr .cs-right {
+    padding: 13px 0;
+  }
+  #searchModal .search-map {
+    height: 100%;
+    padding-top: 40px;
+  }
+  .footer-row img {
+    max-width: 150px;
+  }
+  .footer-row figure {
+    text-align: center;
+  }
+  .enroll-content-outer {
+    padding-bottom: 50px;
+  }
+  .provider-profile-wrapper#newmemberprofile .enrol-login-form .form-group {
+    padding-right: 0px;
+  }
+  .provider-profile-wrapper .enrol-login-form .form-group {
+    max-width: calc(100% - 30px);
+  }
+  .provider-profile-outer .enroll-content-wrap {
+    padding-left: 35px;
+  }
+  #member_change_password_form #new_password-error {
+    max-width: auto;
+  }
+  .provider-profile-wrapper.only-dental-FCB .enrol-login-form .form-group {
+    max-width: calc(50% - 30px);
+  }
+  .provider-profile-wrapper.only-dental-FCB .enrol-login-form {
+    display: flex !important;
+  }
+  .provider-profile-outer .add-another-btn {
+    margin-right: 0px;
+  }
+  .provider-view-offices-outer .enrol-login-form {
+    display: flex !important;
+  }
+
+  .top-header > div:last-of-type {
+    padding-top: 0 !important;
+  }
+  .provider-content-wrap .select-wrap {
+    width: 100%;
+  }
+  .provider-content-wrap .enrol-login-form .form-group input {
+    max-width: unset;
+  }
+  .provider-step1-FCB-wrapper .form-group {
+    width: 100%;
+  }
+  .provider-view-offices-outer .enrol-login-form .form-group {
+    width: calc(100% - 30px);
+  }
+  #provider_enroll_step1_form .error {
+    max-width: unset;
+  }
+  #member_change_password_form #new_password-error,
+  #provider_change_password_form #new_password-error {
+    max-width: unset;
+  }
+  .password-eye-container .error {
+    max-width: unset;
+  }
+}
+
+@media (max-width: 575px) {
+  .top-div .top-div-btns,
+  .join-enrol-sec .top-div-btns {
+    display: block;
+    margin: 0 auto;
+    max-width: 175px;
+    font-size: 14px;
+  }
+  .top-div .top-div-btns a.find-btn,
+  .join-enrol-sec .top-div-btns a.find-btn {
+    padding: 0;
+    font-size: 16px;
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+  .provider-card-sec {
+    flex-wrap: wrap;
+    margin-top: -50px;
+  }
+  .provider-card-sec .provider-card {
+    margin: 0px 10px 30px;
+    width: 100%;
+  }
+  .hesitate-sec .hesitate-quotes {
+    margin-right: 0;
+  }
+  .hesitate-quotes p {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  .hesitate-sec {
+    padding: 40px 30px 20px;
+  }
+  footer {
+    padding-bottom: 30px;
+  }
+  .footer-row {
+    padding: 30px 0px 20px;
+  }
+  .footer-row .footer-row-sec {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer-row .footer-row-sec figure .ftr-logo {
+    margin-bottom: 12px;
+  }
+  .footer-row-sec p {
+    margin: 0;
+  }
+  .privacy-policy p {
+    text-align: left;
+    padding: 0 19px;
+  }
+  .privacy-policy p a {
+    display: block;
+  }
+  .social-areas {
+    display: block;
+  }
+  .providers-bg .top-div .top-div-btns {
+    width: 100%;
+    max-width: 100%;
+  }
+  .providers-bg .top-div .top-div-btns .enrol-btn {
+    max-width: 245px;
+    margin: 0 auto;
+  }
+  .insurance-sec,
+  .corporate-imgs {
+    padding-bottom: 50px;
+  }
+  .first-canadian {
+    padding: 50px 0 30px;
+  }
+  .faq-sec {
+    padding: 35px 0px 40px;
+  }
+  .enroll-now-text {
+    margin-bottom: 20px;
+  }
+  header .navbar-brand {
+    max-width: 140px;
+  }
+  .top-header .important-links ul li {
+    margin: 4px 9px;
+  }
+  .cm-top-mrgn {
+    margin-top: 212px;
+  }
+  .contact-form h2 {
+    font-size: 25px;
+  }
+  .canadian-form input {
+    height: 35px;
+  }
+  .canadian-form label {
+    font-size: 14px;
+  }
+  .who-we-are-content h2 {
+    font-size: 35px;
+  }
+  .top-div h2,
+  .join-enrol-sec h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .top-div p,
+  .join-enrol-sec p,
+  .who-we-are-content p {
+    font-size: 16px;
+  }
+  .provider-card-sec .provider-card {
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 14px 0px;
+  }
+  .vision-top-wrapper ul li {
+    font-size: 17px;
+  }
+  .page-header h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main-page-wrap {
+    margin-top: 215px;
+  }
+  #newmemberprofile .form.enrol-login-form .form-group {
+    width: 100%;
+  }
+  .enroll-content-wrap {
+    padding: 35px 15px;
+  }
+  #newmemberprofile .form.enrol-login-form .form-group {
+    padding-right: 0;
+  }
+  .cs-dob-div select.form-control {
+    margin-right: 0px;
+    width: 100%;
+  }
+  .enrol-btn,
+  .login-btn {
+    padding: 10px 15px !important;
+  }
+  .family-table {
+    display: flex;
+  }
+  .family-table tr {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .family-table thead th {
+    padding-bottom: 0.75rem !important;
+  }
+  /* .edit-td a {
+        display: block;
+    }*/
+  .sr-modal-location-wrap .add-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .family-table tbody td,
+  .family-table thead th {
+    white-space: nowrap;
+  }
+  .family-member-edit-table.family-table thead th {
+    height: 62px;
+    padding-top: 20px;
+  }
+  .family-table thead th,
+  .family-table tbody td {
+    width: auto;
+  }
+  .provider-profile-outer .enroll-content-wrap {
+    padding-left: 15px;
+  }
+  div#searchModal .modal-body.search-modal-body {
+    padding: 20px;
+  }
+
+  .provider-view-offices-outer .enrol-login-form {
+    display: inherit !important;
+  }
+  header {
+    position: fixed;
+    transition: all 0.7s linear;
+  }
+}
+@media (max-width: 480px) {
+  .top-header .important-links ul li {
+    margin: 4px 5px;
+  }
+  /*211126*/
+  .member-enrollment-sec.cs-login-div a.enrol-btn {
+    width: 100%;
+    margin-right: 0;
+  }
+  .provider-profile-wrapper.only-dental-FCB .enrol-login-form .form-group {
+    max-width: calc(100% - 30px);
+  }
+  .provider-profile-wrapper.only-dental-FCB .enrol-login-form {
+    display: inherit !important;
+  }
+  .clinic-not-found {
+    font-size: 16px;
+  }
+  .FCB-dental-wrapper {
+    padding: 10px 0px 30px;
+  }
+  .provider-profile-wrapper.FCB-dental-wrapper .sel-btn-wrap {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .head-col:not(:last-child)::after {
+    width: 115%;
+    left: 55%;
+  }
+}

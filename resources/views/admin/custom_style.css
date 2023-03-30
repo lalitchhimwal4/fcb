@@ -1,0 +1,469 @@
+/* page margin from topss  */
+.cm-top-mrgn {
+	margin-top: 190px;
+}
+
+.cmn-padd {
+	padding: 100px 0;
+}
+
+header .navbar-brand {
+	height: 134px;
+}
+
+.quick-jump {
+	position: sticky;
+	top: 142px;
+}
+
+.max-690 {
+	max-width: 690px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.max-1140 {
+	max-width: 1140;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+/*login css*/
+.login-page {
+	min-height: 100vh;
+}
+
+.login-page {
+	background: #f0efeb;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px;
+}
+
+.login-page .form {
+	position: relative;
+	z-index: 1;
+	background: #ffffff;
+	max-width: 360px;
+	margin: 15px auto;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	width: 100%;
+}
+
+.login-page figure.login-logo img {
+	width: 100%;
+}
+
+.login-page figure.login-logo {
+	width: 130px;
+	margin: 0 auto 20px;
+}
+
+.login-page .form .input-wrap {
+	position: relative;
+	margin: 0 0 15px;
+}
+
+.login-page .form .input-wrap i {
+	position: absolute;
+	left: 10px;
+	top: 18px;
+	user-select: none;
+}
+
+.login-page .form input {
+	outline: 0;
+	height: 50px;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-left: 35px;
+	box-shadow: none !important;
+}
+
+.login-page .form button {
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	cursor: pointer;
+	line-height: 17px;
+	font-size: 14px;
+	background: #e63b2b;
+	color: #fff;
+	border-radius: 4px;
+	transition: all 0.3s ease-in-out;
+}
+
+.login-page .form button:hover,
+.login-page .form button:active,
+.login-page .form button:focus {
+	background: #000;
+}
+
+.login-page span.error {
+	font-size: 12px;
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+/*login css end*/
+
+/*211012*/
+footer .email-wrap a {
+	word-break: break-all !important;
+}
+
+header .navbar-brand {
+	max-width: 250px;
+}
+
+/*211012 end*/
+
+label.error {
+	color: red !important;
+	font-size: 13px !important;
+}
+
+/*211014*/
+.saving-discount-content p {
+	margin: 0 0 20px;
+}
+
+.saving-discount-content ul {
+	margin-left: 0;
+}
+
+.what-are-benefits .who-we-are-content p {
+	margin: 0;
+}
+
+.footer-row .footer-row-sec a.fb {
+	margin-right: 6px;
+}
+
+.hesitate-sec a.enrol-btn {
+	white-space: nowrap;
+}
+
+.experience-card li {
+	margin-bottom: 15px;
+}
+
+.experience-card li {
+	width: 25%;
+}
+
+.experience-card {
+	align-items: flex-start;
+}
+
+a.enroll-now-text:hover {
+	color: #000;
+}
+
+.what-are-benefits a.enroll-now-text,
+.why-join-provider a.enroll-now-text {
+	text-decoration: underline !important;
+}
+
+/*211014 end*/
+/*211015*/
+.vision-top-wrapper,
+.vision-top-wrapper p {
+	text-align: left !important;
+}
+
+.vision-top-wrapper ul li {
+	font-size: 17px;
+}
+
+.provider-card-sec .provider-card p {
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+	min-height: 140px;
+}
+
+/*211015 end*/
+
+.form-group .asterick {
+	color: red;
+	font-size: 18px;
+	bottom: 0em !important;
+}
+
+.services-enroll a.qstn-contact.popup-btn:hover {
+	color: black;
+}
+
+/*211118*/
+.cs-dob-div .select-wrap {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cs-dob-div .form-group {
+	width: 100%;
+}
+
+.cs-dob-div select.form-control {
+	max-width: 200px;
+	margin-right: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.cs-dob-div .enroll-label {
+	padding: 20px 0 0px 0;
+}
+.cs-dob-div .form-group {
+	margin-bottom: 0;
+}
+
+body .row.cs-form-new-membr a:not(:last-child) {
+	margin-right: 20px;
+}
+
+body .row.cs-form-new-membr .cs-form-card.cs-right a {
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	font-size: 17px;
+}
+
+body .row.cs-form-new-membr .cs-form-card.cs-right a i {
+	padding-left: 8px;
+}
+body input.form-control.error {
+	color: #000 !important;
+}
+/*211118 end*/
+
+/*23-11-21*/
+
+#searchModal button.close {
+	position: absolute;
+	right: -10px;
+	background: #e63b2b;
+	line-height: 12px;
+	padding: 9px 8px 10px 8px;
+	font-weight: 200;
+	font-size: 33px;
+	color: #fff;
+	top: -14px;
+	z-index: 99;
+	opacity: 1;
+	border-radius: 5px;
+}
+#searchModal .search-modal-content .input-group-btn .btn {
+	background: #e63b2b;
+	color: #fff;
+}
+#searchModal .bottom-button-wrap a {
+	color: #e63b2b;
+}
+.sr-modal-location-wrap .heading span {
+	display: inline-block;
+	background-color: #fff;
+	padding-right: 10px;
+}
+.sr-modal-location-wrap .heading {
+	position: relative;
+	color: #e63b2b;
+	z-index: 5;
+}
+.sr-modal-location-wrap .heading::before {
+	position: absolute;
+	content: "";
+	background: #cbcbcb;
+	width: 100%;
+	height: 2px;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.search-modal-content .location-wrap {
+	padding: 15px 0;
+}
+.sr-modal-location-wrap .add-row {
+	padding: 15px 0;
+}
+.sr-modal-location-wrap .enrol-btn {
+	padding: 12px 22px !important;
+	line-height: 20px;
+	font-size: 16px;
+}
+.sr-modal-location-wrap .enrol-btn i {
+	padding-left: 8px;
+}
+.sr-modal-location-wrap .bottom-button-wrap a i {
+	padding-left: 8px;
+}
+.sr-modal-location-wrap .bottom-button-wrap a {
+	font-size: 16px;
+	line-height: 20px;
+}
+.sr-modal-location-wrap {
+	padding-top: 20px;
+}
+/*211123*/
+div#searchModal .search-map {
+	height: 100%;
+}
+div#searchModal .modal-body.search-modal-body {
+	padding: 35px;
+}
+div#searchModal .search-modal-content {
+	max-height: 435px;
+	overflow-y: auto;
+	width: 100%;
+	min-height: 400px;
+	padding-right: 40px;
+}
+div#searchModal .modal-dialog {
+	max-width: 1000px;
+}
+
+/*24-11-21*/
+
+#style-scrollbar::-webkit-scrollbar {
+	width: 15px;
+	background-color: #f5f5f5;
+}
+
+#style-scrollbar::-webkit-scrollbar-thumb {
+	background-color: #e63b2b;
+	border-radius: 20px;
+	border: 4px solid #f5f5f5;
+}
+
+#style-scrollbar::-webkit-scrollbar-track {
+	background-color: #f5f5f5;
+}
+
+#style-scrollbar::-webkit-scrollbar-button:vertical:increment {
+	background-image: url("https://fcb.pmdms.com/frontend_assets/images/down.png");
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#style-scrollbar::-webkit-scrollbar-button:vertical:decrement {
+	background-image: url("https://fcb.pmdms.com/frontend_assets/images/up.png");
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.head-col.active span {
+	background: #f6f6f6;
+}
+
+.fcb-login-buttons {
+	margin-top: 10px;
+}
+.fcb-login-buttons a:not(:last-child) {
+	margin-right: 10px;
+}
+.fcb-login-buttons a {
+	margin-top: 10px;
+}
+.family-table {
+	table-layout: fixed;
+}
+.family-table tbody td,
+.family-table thead th {
+	word-break: break-word;
+}
+
+.enrolled-login-form-separator {
+	margin-right: 20px;
+	font-weight: bold;
+	margin-top: 41px;
+}
+.login-form-wrap .enrol-btn {
+	margin-top: 25px;
+}
+/*211126*/
+
+/*211126 end*/
+
+.marginform button[type="submit"],
+#editfamilymemberform button[type="submit"] {
+	margin-right: 10px;
+}
+
+.family-table td .fa-edit {
+	color: green;
+}
+.family-table.dashboard-table td .fa-edit {
+	color: red;
+}
+.family-table td .fa-trash-alt {
+	color: red;
+}
+
+.custom-select-form-control {
+	width: 100%;
+}
+
+/*google maps search suggestion in member enrollmetn second step*/
+.pac-container.pac-logo.hdpi {
+	width: 60% !important;
+}
+/*211210*/
+.confirm-cong-p {
+	color: red;
+	padding: 10px 0;
+	font-weight: 500;
+}
+.FCB-registration-wrapper .fcb-inner-wrap {
+	padding: 20px;
+	background: #e3e2e2;
+	margin: 10px 0;
+}
+.FCB-registration-wrapper .fcb-inner-wrap h4 {
+	padding-bottom: 11px;
+}
+/*211210 end*/
+
+/*211216*/
+
+.edit-td a {
+	padding-left: 20px;
+}
+.view-edit-cstm-wrap .cs-right a {
+	margin: 7px;
+}
+.view-edit-cstm-wrap.row.cs-form-new-membr a:not(:last-child) {
+	margin-right: 7px;
+}
+.navbar {
+	background: #fff;
+}
+.enrol-login-form {
+	padding-bottom: 20px;
+}
+.family-table select,
+.enrol-login-form select {
+	padding-right: 30px;
+	text-overflow: ellipsis;
+}
+.family-table address {
+	text-overflow: ellipsis;
+}

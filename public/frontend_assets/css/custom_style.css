@@ -1,0 +1,838 @@
+/*page margin from topss  */
+sup {
+    top: -0.5em;
+    color: #fa0000;
+}
+.cm-top-mrgn {
+	margin-top: 190px;
+}
+
+.cmn-padd {
+	padding: 100px 0;
+}
+
+header .navbar-brand {
+	height: 134px;
+}
+
+.quick-jump {
+	position: sticky;
+	top: 142px;
+}
+
+.max-690 {
+	max-width: 690px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.max-1140 {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+/*login css*/
+.login-page {
+	min-height: 100vh;
+}
+
+.login-page {
+	background: #f0efeb;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px;
+}
+
+.login-page .form {
+	position: relative;
+	z-index: 1;
+	background: #ffffff;
+	max-width: 360px;
+	margin: 15px auto;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	width: 100%;
+}
+
+.login-page figure.login-logo img {
+	width: 100%;
+}
+
+.login-page figure.login-logo {
+	width: 130px;
+	margin: 0 auto 20px;
+}
+
+.login-page .form .input-wrap {
+	position: relative;
+	margin: 0 0 15px;
+}
+
+.login-page .form .input-wrap i {
+	position: absolute;
+	left: 10px;
+	top: 18px;
+	user-select: none;
+}
+
+.login-page .form input {
+	outline: 0;
+	height: 50px;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-left: 35px;
+	box-shadow: none !important;
+}
+
+.login-page .form button {
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	cursor: pointer;
+	line-height: 17px;
+	font-size: 14px;
+	background: #e63b2b;
+	color: #fff;
+	border-radius: 4px;
+	transition: all 0.3s ease-in-out;
+}
+
+.login-page .form button:hover,
+.login-page .form button:active,
+.login-page .form button:focus {
+	background: #000;
+}
+
+.login-page span.error {
+	font-size: 12px;
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+/*login css end*/
+
+/*211012*/
+footer .email-wrap a {
+	word-break: break-all !important;
+}
+
+header .navbar-brand {
+	max-width: 250px;
+}
+
+/*211012 end*/
+
+label.error {
+	color: red !important;
+	font-size: 13px !important;
+}
+
+/*211014*/
+.saving-discount-content p {
+	margin: 0 0 20px;
+}
+
+.saving-discount-content ul {
+	margin-left: 0;
+}
+
+.what-are-benefits .who-we-are-content p {
+	margin: 0;
+}
+
+.footer-row .footer-row-sec a.fb {
+	margin-right: 6px;
+}
+
+.hesitate-sec a.enrol-btn {
+	white-space: nowrap;
+}
+
+.experience-card li {
+	margin-bottom: 15px;
+}
+
+.experience-card li {
+	width: 25%;
+}
+
+.experience-card {
+	align-items: flex-start;
+}
+
+a.enroll-now-text:hover {
+	color: #000;
+}
+
+.what-are-benefits a.enroll-now-text,
+.why-join-provider a.enroll-now-text {
+	text-decoration: underline !important;
+}
+
+/*211014 end*/
+/*211015*/
+.vision-top-wrapper,
+.vision-top-wrapper p {
+	text-align: left !important;
+}
+
+.vision-top-wrapper ul li {
+	font-size: 17px;
+}
+
+.provider-card-sec .provider-card p {
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+	min-height: 140px;
+}
+
+/*211015 end*/
+
+.form-group .asterick {
+	color: red;
+	font-size: 18px;
+	bottom: 0em !important;
+}
+
+.services-enroll a.qstn-contact.popup-btn:hover {
+	color: black;
+}
+
+/*211118*/
+.cs-dob-div .select-wrap {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cs-dob-div .form-group {
+	width: 100%;
+}
+
+.cs-dob-div select.form-control {
+	max-width: 200px;
+	margin-right: 50px;
+	margin-top: 15px;
+}
+.cs-dob-div .enroll-label {
+	padding: 20px 0 0px 0;
+}
+.cs-dob-div .form-group {
+	margin-bottom: 0;
+}
+
+body .row.cs-form-new-membr a:not(:last-child) {
+	margin-right: 20px;
+}
+
+body .row.cs-form-new-membr .cs-form-card.cs-right a {
+	/*padding-right: 30px !important;*/
+	/*padding-left: 30px !important;*/
+	font-size: 17px;
+}
+
+body .row.cs-form-new-membr .cs-form-card.cs-right a i {
+	padding-left: 8px;
+}
+body input.form-control.error {
+	color: #000 !important;
+}
+/*211118 end*/
+
+/*23-11-21*/
+
+#searchModal button.close {
+	position: absolute;
+	right: -10px;
+	background: #e63b2b;
+	line-height: 12px;
+	padding: 9px 8px 10px 8px;
+	font-weight: 200;
+	font-size: 33px;
+	color: #fff;
+	top: -14px;
+	z-index: 99;
+	opacity: 1;
+	border-radius: 5px;
+}
+#searchModal .search-modal-content .input-group-btn .btn {
+	background: #e63b2b;
+	color: #fff;
+}
+#searchModal .bottom-button-wrap a {
+	color: #e63b2b;
+	margin: 7px 0;
+}
+#searchModal .bottom-button-wrap a:first-child {
+	margin-right: 20px;
+}
+.sr-modal-location-wrap .heading span {
+	display: inline-block;
+	background-color: #fff;
+	padding-right: 10px;
+}
+.sr-modal-location-wrap .heading {
+	position: relative;
+	color: #e63b2b;
+	z-index: 5;
+}
+.sr-modal-location-wrap .heading::before {
+	position: absolute;
+	content: "";
+	background: #cbcbcb;
+	width: 100%;
+	height: 2px;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.search-modal-content .location-wrap {
+	padding: 15px 0;
+}
+.sr-modal-location-wrap .add-row {
+	padding: 15px 0;
+	align-items: center;
+}
+.sr-modal-location-wrap .enrol-btn {
+	padding: 12px 22px !important;
+	line-height: 20px;
+	font-size: 16px;
+}
+.sr-modal-location-wrap .enrol-btn i {
+	padding-left: 8px;
+}
+.sr-modal-location-wrap .bottom-button-wrap a i {
+	padding-left: 8px;
+}
+.sr-modal-location-wrap .bottom-button-wrap a {
+	font-size: 16px;
+	line-height: 20px;
+}
+.sr-modal-location-wrap {
+	padding-top: 20px;
+}
+/*211123*/
+@media only screen and (max-width: 600px) {
+	div#searchModal .search-map {
+		height: 250px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	div#searchModal .search-map {
+		height: 100%;
+	}
+}
+div#searchModal .modal-body.search-modal-body {
+	padding: 35px;
+}
+div#searchModal .search-modal-content {
+	max-height: 435px;
+	overflow-y: auto;
+	width: 100%;
+	min-height: 400px;
+}
+div#searchModal .modal-dialog {
+	max-width: 1000px;
+}
+
+/*24-11-21*/
+
+.head-col.active span {
+	background: #000;
+}
+.head-col.passed span {
+	background: #f6f6f6;
+}
+
+.enroll-col.active span {
+	background: #e63b2b;
+}
+.enroll-col.passed span {
+	background: #000;
+}
+
+.fcb-login-buttons {
+	margin-top: 10px;
+}
+.fcb-login-buttons a:not(:last-child) {
+	margin-right: 10px;
+}
+.fcb-login-buttons a {
+	margin-top: 10px;
+}
+.family-table {
+	table-layout: fixed;
+}
+.family-table tbody td,
+.family-table thead th {
+	word-break: break-word;
+}
+
+.enrolled-login-form-separator {
+	margin-right: 30px;
+	font-weight: bold;
+	margin-top: 62px;
+}
+.enrolled-login-cstm-form.enrol-login-form .form-group:first-child {
+	padding-right: 30px;
+}
+.login-form-wrap .enrol-btn {
+	margin-top: 25px;
+}
+/*211126*/
+
+/*211126 end*/
+
+.marginform button[type="submit"],
+#editfamilymemberform button[type="submit"] {
+	margin-right: 10px;
+}
+
+.family-table td .fa-edit {
+	color: green;
+}
+.family-table.dashboard-table td .fa-edit {
+	color: red;
+}
+.family-table td .fa-trash-alt {
+	color: red;
+}
+
+.custom-select-form-control {
+	width: 100%;
+}
+
+/*google maps search suggestion in member enrollment second step and in member dashboard*/
+.pac-container.pac-logo.hdpi {
+	width: 70% !important;
+	z-index: 2000;
+}
+
+/*211210*/
+.confirm-cong-p {
+	color: red;
+	padding: 10px 0;
+	font-weight: 500;
+}
+.FCB-registration-wrapper .fcb-inner-wrap {
+	padding: 20px;
+	background: #e3e2e2;
+	margin: 10px 0;
+}
+.FCB-registration-wrapper .fcb-inner-wrap h4 {
+	padding-bottom: 11px;
+}
+/*211210 end*/
+
+/*211216*/
+
+.edit-td a {
+	padding-left: 20px;
+}
+.view-edit-cstm-wrap .cs-right a {
+	margin: 7px;
+}
+.view-edit-cstm-wrap.row.cs-form-new-membr a:not(:last-child) {
+	margin-right: 7px;
+}
+.view-ed-cstm a:first-child {
+	margin-right: 20px !important;
+}
+.navbar {
+	background: #fff;
+}
+
+.family-table select,
+.enrol-login-form select {
+	padding-right: 30px !important;
+	text-overflow: ellipsis;
+}
+.family-table address {
+	text-overflow: ellipsis;
+}
+.enrolled-cstm-button {
+	margin-top: 25px;
+}
+.comm-mr-top {
+	margin-top: 25px;
+}
+#newmemberprofile .forgot-password,
+#newproviderprofile .forgot-password {
+	display: inline-block;
+	color: #e63b2b;
+	margin-top: 10px;
+	text-decoration: underline !important;
+}
+#newpayorprofile .forgot-password {
+	display: inline-block;
+	color: #e63b2b;
+	margin-top: 10px;
+	text-decoration: underline !important;
+}
+
+/*211218*/
+
+.provider-step1-FCB-wrapper .form-group {
+	width: 240px;
+}
+.provider-step1-FCB-wrapper .fcb-inner-wrap {
+	padding: 10px 20px 30px;
+	background: #e3e2e2;
+	margin: 30px 0;
+}
+.provider-profile-wrapper .enrol-login-form .form-group:not(:last-child) {
+	padding-right: 0px;
+}
+.provider-profile-wrapper .enrol-login-form .form-group {
+	max-width: calc(25% - 30px);
+	width: 100%;
+	margin: 0 15px;
+	overflow: hidden;
+}
+.provider-profile-wrapper .enrol-login-form .form-group p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.provider-profile-wrapper .enrol-login-form .form-group input {
+	max-width: 100%;
+	width: 100%;
+}
+.provider-profile-outer .add-another-btn {
+	display: block;
+	margin-top: 15px;
+	text-align: right;
+	color: #e63b2b;
+}
+.provider-FCB-confirmation-wrapper .form-group {
+	width: auto;
+	padding: 10px 0;
+}
+.provider-FCB-confirmation-wrapper .fcb-inner-wrap {
+	padding: 10px 20px;
+	background: #e3e2e2;
+	margin: 20px 0;
+}
+.provider-FCB-confirmation-wrapper .form-group h5 {
+	margin-bottom: 15px;
+}
+
+.family-table .form-control {
+	padding: 8px;
+}
+.cstm-mr-top {
+	margin-top: 30px;
+}
+.credit-card-buttons .paypal-label {
+	display: block;
+}
+
+#member_change_password_form #new_password-error,
+#provider_change_password_form #new_password-error {
+	max-width: 200px;
+}
+#member_resetpassword_form #new_password-error,
+#member_resetpassword_form #confirm_password-error {
+	max-width: 200px;
+}
+.change-pass-cstm-wrap .cs-right {
+	margin-top: 20px;
+}
+.yes-no-cst-btn {
+	margin-top: 20px;
+}
+.modal-open {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_draggerRail {
+	width: 12px !important;
+	border-radius: 0 !important;
+	background-color: #e4e1e1 !important;
+	margin: 0 !important;
+	width: 100% !important;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #e63b2b !important;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -16px 0px;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -16px -20px;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_buttonUp {
+	background-image: url("https://fcb.pmdms.com/frontend_assets/images/up.png");
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	background-color: #e4e1e1 !important;
+}
+#style-scrollbar .mCSB_scrollTools .mCSB_buttonDown {
+	background-image: url("https://fcb.pmdms.com/frontend_assets/images/down.png");
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 1;
+	background-color: #e4e1e1 !important;
+}
+
+/*================================================================================================*/
+/*Provider CSS Start*/
+/*================================================================================================*/
+
+#provider_enroll_step1_form .error {
+	max-width: 200px;
+}
+
+#provider_enroll_step1_form .provider_search_error.error {
+	margin-top: 10px;
+}
+.FCB-dental-wrapper {
+	padding: 10px 20px 30px;
+	background: #e3e2e2;
+	margin: 30px 0;
+}
+.dental-p {
+	color: #e63b2b;
+	margin-top: 20px;
+}
+.FCB-dental-wrapper .add-another-btn-wrap {
+	text-align: right;
+	margin-right: 15px;
+}
+.FCB-dental-wrapper .add-another-btn {
+	display: inline-block;
+	margin-top: 15px;
+	color: #e63b2b;
+}
+.provider-dashboard .family-table {
+	border-bottom: none !important;
+	margin-bottom: inherit;
+}
+.provider-dashboard .family-table thead th,
+.provider-dashboard .family-table tbody td {
+	width: 170px;
+}
+.login-buttons-wrap {
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+}
+.login-buttons-wrap .enrol-btn {
+	margin-top: 0px;
+	margin-right: 20px;
+}
+.remember-me-login {
+	margin-left: 10px;
+}
+.remember-me-login .cstm-radio-label {
+	color: #e63b2b;
+}
+.remember-me-login .cstm-radio-label .checkmark:after {
+	background: #e63b2b !important;
+}
+.provider-view-offices-outer .enrol-login-form .form-group {
+	width: calc(25% - 30px);
+	margin: 0 15px;
+	padding-right: 0px;
+}
+.provider-view-offices-outer .enrol-login-form .form-group:not(:last-child) {
+	padding-right: 0px;
+}
+
+.view-offices-button-wrap .enrol-btn.family-bottom-btn {
+	padding: 0px !important;
+}
+.view-offices-button-wrap .enrol-btn {
+	margin-top: 20px;
+}
+.view-offices-button-wrap .enrol-btn:first-child {
+	margin-right: 20px;
+}
+.view-offices-button-wrap .enrol-btn:first-child i {
+	margin-right: 8px;
+	margin-bottom: 3px;
+}
+.provider-view-offices-outer .enrol-login-form .form-group p {
+	word-break: break-all;
+}
+.dashboard-table {
+	border-bottom: none !important;
+}
+.table-responsive .mCSB_scrollTools .mCSB_draggerRail {
+	border-radius: 0 !important;
+	background-color: #e4e1e1 !important;
+	margin: 0 !important;
+	width: 100% !important;
+	height: auto !important;
+}
+.table-responsive .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+	height: 18px !important;
+	background: #ebebeb !important;
+	border-radius: 50px !important;
+}
+.table-responsive .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: #e63b2b !important;
+	height: 6px !important;
+	opacity: 1 !important;
+	transition: none !important;
+}
+.table-responsive .mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -16px 0px;
+}
+.table-responsive .mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -16px -20px;
+}
+.table-responsive .mCSB_horizontal.mCSB_inside > .mCSB_container {
+	margin-bottom: 15px !important;
+}
+.social_media_group {
+	position: relative;
+}
+.social_media_group i {
+	position: absolute;
+	right: 0;
+	top: -5px;
+	color: #e63b2b;
+	cursor: pointer;
+}
+
+/*================================================================================================*/
+/*Provider CSS COmplete*/
+/*================================================================================================
+
+/*220104*/
+
+/*.top-header.hide {
+    display: none;
+}*/
+header {
+	position: fixed;
+	transition: all 0.4s linear;
+}
+.top-header {
+	padding: 0 !important;
+}
+.top-header > div {
+	padding: 1em 50px;
+}
+
+/*18-01-22*/
+
+.Provider-NotExist-Office-Exist-Health-wrapper .sel-btn-wrap {
+	text-align: right;
+	width: 100%;
+}
+.Provider-NotExist-Office-Exist-Health-wrapper .sel-btn-wrap button {
+	margin-left: auto;
+}
+.cont-btn-wrp {
+	display: flex;
+	align-items: center;
+}
+.cont-btn-wrp > button {
+	margin-right: 15px;
+	margin-top: 0;
+}
+.cont-btn-wrp > span a {
+	color: red;
+}
+.registered-provider-dashboard table {
+	margin-bottom: 0 !important;
+}
+.registered-provider-dashboard table:first-child {
+	margin-top: 20px !important;
+}
+.provider-edit-offices-outer .cs-form-card button,
+.provider-edit-offices-outer .cs-form-card a,
+.edit-provider-details .cs-form-card button,
+.edit-provider-details .cs-form-card a {
+	margin: 20px 5px;
+}
+.editoffice-socialwrapper {
+	position: relative;
+}
+.editoffice-socialwrapper .add-another-btn-wrap {
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+}
+.provider-profile-wrapper .select-wrap {
+	width: 100%;
+}
+.provider-view-offices-outer input {
+	max-width: 100% !important;
+}
+.provider-view-offices-outer .select-wrap {
+	width: 100%;
+}
+.provider-edit-offices-outer .cs-form-card {
+	margin-top: 30px;
+}
+.provider-view-offices-outer .edit-prv-off-row {
+	margin: 0 -15px;
+}
+.FCB-dental-wrapper .form-group p a {
+	color: inherit;
+}
+
+.search-providers-wrapper .provider-list-info {
+	font-size: 13px;
+	margin-bottom: -5px;
+}
+
+/*220131*/
+
+.password-eye-container span {
+	position: relative;
+	display: block;
+}
+.password-eye-container .password-toggle-eye {
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	font-size: 15px;
+}
+.last-password-eye {
+	padding-right: 50px;
+}
+.password-eye-container .error {
+	max-width: 200px;
+}
+.password-eye-container input {
+	padding-right: 30px;
+}
+.password-toggle-eye {
+	cursor: pointer;
+}
+
+/*In Provider office insert form,member enroll step2 form */
+#latitudeArea,
+#longtitudeArea {
+	opacity: 0;
+	height: 0;
+	width: 0%;
+}

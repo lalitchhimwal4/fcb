@@ -1,0 +1,2408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+  color: #181716;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+a i {
+  font-size: 14px;
+}
+figure {
+  margin: 0;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+button:focus,
+.btn:focus,
+input {
+  outline: none;
+  box-shadow: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+textarea {
+  resize: none;
+}
+
+header .container,
+footer .container {
+  max-width: 100%;
+  padding: 0 33px;
+  margin: 0;
+}
+.main-div .container,
+.why-join-provider .container,
+.counters-network .container,
+.what-are-benefits .container,
+.first-canadian .container,
+.faq-sec .container,
+.health-and-dental .container,
+.contact-details .container,
+.insurance-trend-qstn .container,
+.privacy-policy-sec .container,
+.corporate-imgs .container {
+  max-width: 100%;
+  padding: 0 80px;
+}
+/* HEADER Styling Start  */
+.top-header {
+  background: #181617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 50px;
+  transition: all 0.3s linear 0s;
+}
+.top-header .important-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.top-header .important-links ul li {
+  margin: 0 15px;
+}
+.top-header .important-links ul li:first-child {
+  margin-left: 0;
+}
+.top-header .important-links ul li:last-child {
+  margin-right: 0;
+}
+.top-header .important-links ul li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+header {
+  background: transparent;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+header nav {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.top-header .social-areas a.fb-acc {
+  margin-left: 15px;
+}
+.top-header .social-areas a {
+  color: #fff;
+  font-size: 15px;
+}
+header nav ul {
+  align-items: center;
+}
+header nav ul li a {
+  color: #181617;
+  font-weight: 600;
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 0 !important;
+  transition: all 0.3s ease-in-out;
+}
+header nav ul li:hover a {
+  color: #e63b2b;
+}
+header nav ul li {
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+}
+header nav ul li:first-child {
+  margin-left: 0;
+}
+header nav ul li:last-child {
+  margin-right: 0;
+}
+header nav ul li.current-menu-item a {
+  color: #e63b2b;
+}
+.enrol-btn,
+.login-btn {
+  padding: 17px 40px !important;
+  line-height: 21px;
+  font-size: 18px;
+  background: #e63b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+.enrol-btn:hover,
+.login-btn:hover {
+  background: #181617;
+  color: #fff;
+}
+.main-div {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 125vh; */
+  padding-top: 80px;
+}
+.main-div .top-div {
+  /*padding-top: 187px;*/
+  padding-bottom: 230px;
+}
+.main-div .top-div h1,
+.join-enrol-sec h4 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #e63b2b;
+  line-height: 1.5;
+  font-family: "Fira Sans Condensed";
+}
+.top-div h2,
+.join-enrol-sec h2 {
+  font-size: 65px;
+  margin: 10px 0 15px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  line-height: 60px;
+}
+.top-div p,
+.join-enrol-sec p {
+  font-size: 20px;
+  color: #181617;
+  margin: 0 0 20px;
+  line-height: 1.8;
+}
+.top-div .top-div-btns,
+.join-enrol-sec .top-div-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top-div .top-div-btns a.find-btn,
+.join-enrol-sec .top-div-btns a.find-btn {
+  font-family: "Mulish", sans-serif;
+  text-transform: capitalize;
+  padding: 0 40px;
+  color: #e63b2b;
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.top-div .top-div-btns a.find-btn:hover,
+.join-enrol-sec .top-div-btns a.find-btn:hover {
+  color: #181617;
+}
+header.header-bg {
+  background: #fff;
+}
+header button.navbar-toggler i {
+  color: #e63b2b;
+}
+.navbar-fixed {
+  top: 0;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* HEADER Styling End  */
+
+/* PROVIDERS-SEC Styling Start  */
+.provider-card-sec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.provider-card-sec .provider-card {
+  background-color: rgb(240, 239, 235);
+  border-top: 10px solid rgb(230, 59, 43);
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 15px 30px 0px;
+  padding: 30px 20px;
+  margin: -50px 10px 30px;
+  z-index: 9;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.provider-card-sec .provider-card figure {
+  height: 66px;
+  width: 66px;
+  margin: 0 auto;
+}
+.provider-card-sec .provider-card h2 {
+  margin: 10px 0 15px;
+  font-size: 24px;
+  color: #181617;
+  line-height: 1em;
+  font-family: "Crimson Pro";
+  margin-bottom: 20px;
+}
+.provider-card-sec .provider-card p {
+  font-size: 16px;
+  color: #181617;
+  margin-bottom: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.provider-card-sec .provider-card .card-btn {
+  padding: 13px 29px !important;
+  margin: 0 auto;
+  line-height: 17px;
+  font-size: 14px;
+  max-width: 128px;
+}
+/* PROVIDERS-SEC Styling End  */
+
+/* WHO-WE-ARE Styling Start  */
+.who-we-are {
+  padding: 1em 0 1em;
+}
+.who-we-are-content h2 {
+  font-size: 45px;
+  color: #383838;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  line-height: 1em;
+  margin: 10px 0 15px;
+}
+.who-we-are-content p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #181617;
+  line-height: 1.8;
+  font-weight: 400;
+  max-width: 1140px;
+  margin: 0 auto 20px;
+}
+.hesitate-sec {
+  background-color: #f0efeb;
+  padding: 40px 50px 20px;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 82%;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+.hesitate-sec .hesitate-quotes {
+  margin-right: 60px;
+}
+.chat-icon {
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  transition: all 0.3s ease-in-out;
+}
+.chat-icon a i {
+  font-size: 48px;
+  color: #e63b2b;
+  transition: all 0.3s ease-in-out;
+}
+.chat-icon:hover {
+  background: #e63b2b;
+}
+.chat-icon:hover a i {
+  color: #fff;
+}
+.chat-icon:hover::after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  content: "";
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  opacity: 0;
+  transform: scale(0.9);
+  display: inline-block;
+  animation: fusionSonarEffect 1.3s ease-out infinite;
+}
+.chat-icon::after {
+  -webkit-box-shadow: 0 0 0 2px rgb(255 255 255 / 10%), 0 0 10px 10px #e63b2b,
+    0 0 0 10px rgb(255 255 255 / 50%);
+  -moz-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e63b2b,
+    0 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 2px rgb(255 255 255 / 10%), 0 0 10px 10px #e63b2b,
+    0 0 0 10px rgb(255 255 255 / 50%);
+}
+@keyframes fusionSonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.hesitate-quotes p {
+  font-size: 24px;
+  line-height: 1.6;
+  font-family: "Crimson";
+  font-style: italic;
+  color: #181617;
+  font-weight: 500;
+  margin: 0 10px 20px;
+}
+.hesitate-quotes span {
+  font-size: 24px;
+  line-height: 1;
+  color: #e63b2b;
+  font-family: "Fira Sans";
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* WHO-WE-ARE Styling End  */
+
+/* COUNTERS Styling Start */
+.counters {
+  background-image: url("../images/counters-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+}
+.counters ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counters ul li {
+  width: 33.3%;
+  text-align: center;
+  color: #fff;
+}
+.counters ul .counter-box:nth-child(2) {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  margin: 0 24px;
+  padding: 20px;
+}
+.kit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+.kit i {
+  margin-right: 10px;
+}
+.counters ul li .kit p {
+  font-size: 50px;
+  font-weight: 900;
+}
+.counters ul li p {
+  font-size: 17px;
+}
+/* COUNTERS Styling End */
+
+/* WHAT-WE-DO Styling Start  */
+.what-we-do {
+  padding: 1em 0 1em;
+}
+.what-we-do .services {
+  margin-top: 20px;
+  text-align: center;
+}
+.zoom-effect-container {
+  position: relative;
+  border-radius: 20px 0px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 10px 15px 0px;
+  overflow: hidden;
+}
+.image-card img {
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+}
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.what-we-do .services h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 30px 0 15px;
+  font-family: "Crimson Pro";
+}
+.enroll-now-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e63b2b;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 53px;
+}
+.what-we-do .view-more {
+  cursor: pointer;
+  max-width: 170px;
+  margin: 20px auto 0;
+}
+/* WHAT-WE-DO Styling End  */
+
+/* JOIN-OUR-NETWORK Styling Start */
+.join-our-network {
+  /*background-image: url('../images/bg-join.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f0efeb;
+}
+.join-enrol-sec {
+  padding: 60px 100px 25px;
+}
+.join-our-network .join-enrol-sec .top-div-btns {
+  justify-content: center;
+}
+/* JOIN-OUR-NETWORK Styling End */
+
+/* BACK-TO-TOP BUTTON Styling Start  */
+#button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #333;
+  width: 52px;
+  height: 35px;
+  text-align: center;
+  border-radius: 6px 6px 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 75px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #e63b2b;
+}
+#button:active {
+  background-color: #e63b2b;
+}
+#button.show {
+  opacity: 0.9;
+  visibility: visible;
+}
+/* BACK-TO-TOP BUTTON Styling End  */
+
+/* FOOTER Styling Start  */
+footer {
+  background: #181617;
+  padding-bottom: 50px;
+}
+.footer-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 56px 0px 44px;
+}
+.footer-row .footer-row-sec {
+  width: 20%;
+  padding-right: 25px;
+}
+.footer-row .footer-row-sec:last-child {
+  padding-right: 0;
+}
+.footer-row-sec h4 {
+  color: #e63b2b;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Crimson Pro";
+}
+.footer-row-sec p {
+  margin: 1em 0;
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.footer-row .footer-row-sec a.fb {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.footer-row .footer-row-sec a.fb:hover {
+  color: rgb(255 255 255 / 80%);
+}
+.footer-row .footer-row-sec ul {
+  margin: 1em 0;
+}
+.footer-row .footer-row-sec ul li span {
+  color: #fff;
+}
+.footer-row .footer-row-sec ul li span a {
+  color: #e63b2b;
+  font-weight: 200;
+  font-size: 16px;
+  word-break: keep-all;
+}
+.footer-row .footer-row-sec .clinical {
+  font-size: 15px;
+  text-align: center;
+}
+.privacy-policy p {
+  font-size: 14px;
+  color: #ffffff;
+}
+.privacy-policy p a {
+  color: #e63b2b;
+  font-size: 14px;
+  font-weight: 200;
+}
+.footer-row .footer-row-sec:nth-child(4) figure,
+.footer-row .footer-row-sec:nth-child(5) figure {
+  height: 158px;
+}
+.footer-row .footer-row-sec:nth-child(4) figure img,
+.footer-row .footer-row-sec:nth-child(5) figure img {
+  object-fit: contain;
+}
+/* FOOTER Styling END  */
+
+/*------------ PROVIDERS-PAGE-STYLING START  ------------*/
+/*.providers-bg {
+    background-image: url('../images/providers-hero-bg.jpg');
+}*/
+/* WHY-JOIN-PROVIDER Styling Start  */
+.why-join-provider {
+  padding: 67px 0 38px;
+}
+.experience-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 72px;
+}
+.experience-card li {
+  /* width: 25%; */
+  /* padding: 0 15px; */
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.experience-card li:hover .circle {
+  background: #181617;
+}
+.experience-card li .circle {
+  width: 95px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f0efeb;
+  margin: 0 auto 15px;
+  transition: all 0.3s ease-in-out;
+}
+.experience-card li .circle i {
+  color: #e63b2b;
+  font-size: 45px;
+}
+.experience-card li .circle img {
+  color: #e63b2b;
+  height: 55px;
+  width: 55px;
+}
+.experience-card li h2 {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 500;
+  font-family: "Crimson Pro";
+}
+.experience-card-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 72px;
+}
+.experience-card-second li {
+  /* width: 25%; */
+  /* padding: 0 15px; */
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.experience-card-second li:hover .circle {
+  background: #181617;
+}
+.experience-card-second li .circle {
+  width: 95px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f0efeb;
+  margin: 0 auto 15px;
+  transition: all 0.3s ease-in-out;
+}
+.experience-card-second li .circle i {
+  color: #e63b2b;
+  font-size: 45px;
+}
+.experience-card-second li .circle img {
+  color: #e63b2b;
+  height: 55px;
+  width: 55px;
+}
+.experience-card-second li h2 {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 500;
+  font-family: "Crimson Pro";
+}
+.provide-today-img .enroll-now-text {
+  margin-top: 24px;
+}
+.why-join-provider .provider-card {
+  margin-top: 0;
+  width: 100%;
+}
+.why-join-provider .provider-card .card-btn {
+  max-width: 146px;
+}
+/* WHY-JOIN-PROVIDER Styling End  */
+
+/* SAVING-AND-DISCOUNT Styling End  */
+.saving-and-discount {
+  /* background-image: url('../images/cost-savings.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.saving-and-discount .saving-discount-content {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  background: #f0efeb;
+  padding: 100px 55px 96px;
+}
+.who-we-are-content ul {
+  margin: 10px 0 2px 10px;
+}
+.who-we-are-content ul li {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 5.5px 0;
+}
+.who-we-are-content ul li:first-child {
+  padding-top: 0;
+}
+.who-we-are-content ul li:last-child {
+  padding-bottom: 0;
+}
+.who-we-are-content ul li p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+.who-we-are-content ul li span {
+  margin-right: 11.2px;
+}
+.who-we-are-content ul li span i {
+  color: #e63b2b;
+  font-size: 18px;
+}
+.saving-and-discount .saving-discount-content .enrol-btn {
+  max-width: 166px;
+  font-size: 14px;
+  padding: 11px 35px !important;
+}
+.join-network {
+  margin-top: 36px;
+  padding: 13px 29px;
+  line-height: 17px;
+  font-size: 14px;
+  background: #ffffff;
+  border-radius: 4px;
+  display: inline-block;
+  color: #e63b2b;
+  transition: all 0.3s ease-in-out;
+}
+.join-network:hover {
+  background: #181617;
+  color: #fff;
+}
+.counter-box1 {
+  border-right: 2px solid #fff;
+  height: 100%;
+  position: relative;
+}
+.count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.counter-box2 {
+  padding-left: 15px;
+}
+.counter-box2 h2 {
+  margin: 10px 0 15px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  font-size: 45px;
+}
+.counter-box2 p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16.5px;
+}
+/* SAVING-AND-DISCOUNT Styling End  */
+
+/* WHAT-ARE-BENEFITS Styling Start  */
+.what-are-benefits {
+  padding: 73px 0 104px;
+}
+.what-are-benefits ul li {
+  align-items: flex-start;
+}
+.what-are-benefits ul li span {
+  margin-top: 5px;
+}
+.what-are-benefits .enroll-now-text {
+  margin-top: 24px;
+}
+/* WHAT-ARE-BENEFITS Styling End */
+/*.how-i-participate {
+    background-image: url('../images/participate-bg.jpg');
+}*/
+/*------------ PROVIDERS-PAGE-STYLING END  ------------*/
+
+/*------------ VISION-PAGE-STYLING START  ------------*/
+/*.vision-bg {
+    background-image: url('../images/vision-bg-hero.jpg');
+}*/
+.vision-bg ul {
+  margin-top: 35px;
+}
+.vision-bg ul li {
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+.vision-bg ul li i {
+  padding-right: 12px;
+  color: #e63b2b;
+}
+.vision-counters ul li {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 70%;
+}
+.vision-counters ul li .kit span {
+  font-size: 50px;
+  margin: 0;
+}
+.vision-counters ul li span {
+  font-size: 20px;
+  margin-bottom: 36px;
+}
+.vision-counters ul li .counter-box-btn .join-network {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-right: 10px;
+  padding: 17px 42px;
+}
+.vision-counters ul li .counter-box-btn .vision-contact-btn {
+  color: #fff;
+  padding: 16px 55px;
+  line-height: 21px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+/*------------ VISION-PAGE-STYLING END  ------------*/
+
+/*------------ PRESCRIPTION-PAGE STYLING START  ------------*/
+/*.prescription-bg {
+    background-image: url('../images/scripts-hero-bg.jpg');
+}*/
+/*------------ PRESCRIPTION-PAGE STYLING END  ------------*/
+
+/*------------ AGENTS-BROKER-PAGE STYLING START  ------------*/
+/*.agents-bg {
+    background-image: url('../images/broker-hero-bg.jpg');
+}*/
+.first-canadian {
+  padding: 70px 0 115px;
+}
+.canadian-benefits {
+  margin-top: 18px;
+}
+.their-service {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all 0.3s ease-in-out;
+}
+.their-service span {
+  height: 54px;
+  width: 54px;
+  background: #f0efeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #e63b2b;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.their-service:hover span {
+  background: #181617;
+}
+.their-service span i {
+  font-size: 25px;
+}
+.their-service p {
+  color: #181617;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: "Crimson Pro";
+}
+.canadian-benefits .fcb {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: 14px;
+  color: #181617;
+}
+.agent-counters ul li {
+  width: 60%;
+}
+.agent-counters ul li h2 {
+  margin-bottom: 15px;
+  font-family: "Crimson Pro";
+  margin-top: 10px;
+  font-size: 45px;
+}
+.agent-counters ul li .join-network {
+  margin-top: 22px;
+}
+.agent-counters ul li span {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.vision-contact-btn {
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 40px;
+}
+.vision-contact-btn:hover {
+  color: #fff;
+}
+.vision-contact-btn i {
+  font-size: 16px;
+  padding-right: 6px;
+}
+/* faq Styling Start  */
+.faq-sec {
+  padding: 83px 0px 68px;
+}
+.faq-sec h2 {
+  font-size: 45px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  color: #383838;
+}
+#faq {
+  margin-top: 10px;
+}
+#faq .card {
+  border-bottom: 1px solid #e2e2e2 !important;
+  border: none;
+  font-family: "Crimson Pro";
+}
+#faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+#faq .card .card-header .btn-header-link {
+  color: #fff;
+  display: block;
+  text-align: left;
+  background: #ffffff;
+  color: #e63b2b;
+  font-size: 20px;
+  padding: 7px 17px 10px 35px;
+  font-family: "Crimson Pro";
+  position: relative;
+}
+#faq .card .card-header .btn-header-link:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 15px;
+  margin-right: 20px;
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+}
+#faq .card .card-header .btn-header-link.collapsed {
+  background: #ffffff;
+  color: #e63b2b;
+}
+#faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f067";
+}
+#faq .card .collapsing {
+  background: #ffffff;
+  line-height: 30px;
+}
+#faq .card .collapse {
+  border: 0;
+}
+#faq .card .collapse.show {
+  background: #ffffff;
+  line-height: 30px;
+  color: #181617;
+}
+#faq .card-body {
+  padding: 7px 17px 18px 0;
+  font-size: 20px;
+}
+/* faq Styling End  */
+/*.broker-join-network {
+    background-image: url('../images/broker-join.jpg');
+}*/
+/*------------ AGENTS-BROKER-PAGE STYLING END  ------------*/
+
+/*------------ NEWS-PAGE STYLING END  ------------*/
+.news {
+  margin-top: 156px;
+}
+.news-sec ul {
+  padding: 16px 0 24px;
+}
+.news-sec ul li {
+  width: 100%;
+}
+.news-sec ul li h2 {
+  font-size: 65px;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Crimson Pro";
+  margin-bottom: 30px;
+}
+.insurance-sec {
+  padding-bottom: 114px;
+}
+.trends-content {
+  padding-top: 55px;
+}
+.trends-content h2 {
+  margin-bottom: 27px;
+}
+.trends-content h2 a {
+  font-size: 26px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  line-height: 1.4;
+  color: #e63b2b;
+}
+.trends-content p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #181716;
+  margin-bottom: 20px;
+}
+.date-year {
+  margin: 40px 0 10px;
+}
+.date-year-value {
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: 400;
+  padding: 4px 0 3px;
+  border-top: 1px solid #e7e6e6;
+  border-bottom: 1px solid #e7e6e6;
+  width: 100%;
+  display: block;
+}
+/*------------ NEWS-PAGE STYLING END  ------------*/
+
+/*------------ INSURANCE-TRENDS-PAGE STYLING END  ------------*/
+.news-sec-inner ul li h2 {
+  font-size: 54px;
+  margin-bottom: -7px;
+}
+.news-sec-inner .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.news-sec-inner .links a {
+  font-weight: 400;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 10px;
+}
+.health-and-dental {
+  padding: 58px 0 0;
+}
+.date-year-value .new-back {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 17px;
+  font-weight: 400;
+  color: #e63b2b;
+}
+.date-year-value .new-back i {
+  font-size: 12px;
+  padding: 0 8px;
+}
+.ontario-health {
+  margin-top: 75px;
+}
+.ontario-health h3 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Crimson Pro";
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.ontario-health p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.ontario-health p span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 4px;
+  float: left;
+  margin-right: 10px;
+  padding: 0;
+  height: 52px;
+  line-height: 52px;
+  color: #e63b2b;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.promote-sec {
+  background: #f0efeb;
+  padding: 42px 28px 32px;
+  border-left: 3px solid #e63b2b;
+  margin-bottom: 22px;
+}
+.promote-sec h2 {
+  font-size: 30px;
+}
+.promote-sec h2 span {
+  font-size: 30px;
+  line-height: 1.3;
+  font-style: italic;
+  font-family: "Crimson Pro";
+}
+.promote-sec span {
+  margin-top: 9px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.ontario-health .date-year {
+  margin: 58px 0;
+}
+.share-story {
+  /*height: 70px;*/
+  width: 100%;
+  background-color: #f9f9fb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.share-story h4 {
+  color: #212934;
+  font-size: 24px;
+  line-height: 1.36;
+  font-weight: 500;
+  font-family: "Crimson Pro";
+}
+.story-icons li a {
+  margin: 0 10px;
+}
+.story-icons li a i {
+  color: #9ea0a4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.related-post {
+  margin: 54px 0 20px;
+}
+.related-post h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.36;
+}
+.related-post .post-box-ref {
+  height: 150px;
+  width: 300px;
+  background: #f9f9fb;
+  display: block;
+  margin: 22px 0 50px;
+  transition: all 0.3s ease-in-out;
+}
+.related-post .post-box-ref:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(230, 59, 43, 0.71) 0,
+    rgba(242, 243, 245, 0) 100%
+  );
+}
+.related-post span {
+  font-size: 18px;
+  font-family: "Crimson Pro";
+  margin-bottom: 14px;
+  display: block;
+}
+.must-log-in a {
+  color: #e63b2b;
+}
+.enrol-empty-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  padding: 12px 40px;
+  max-width: 160px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #e63b2b;
+  border-radius: 4px;
+  max-width: 150px;
+}
+.enrol-empty-btn:hover {
+  background: #181716;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 0 auto;
+}
+/*------------ INSURANCE-TRENDS-PAGE STYLING END  ------------*/
+
+/*------------ CORPORATE-RESPONSIBILITY-PAGE STYLING START  ------------*/
+.corporate {
+  padding-top: 70px;
+  padding-bottom: 108px;
+}
+.corporate-sec ul li {
+  width: 100%;
+}
+.corporate-sec h2 {
+  font-size: 65px;
+  font-family: "Crimson Pro";
+}
+.first-canadian-benefit {
+  margin: 0;
+}
+.corporate-imgs {
+  padding-bottom: 80px;
+}
+.corporate-imgs .imgg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*------------ CORPORATE-RESPONSIBILITY-PAGE STYLING END  ------------*/
+
+/*------------ CONTACT-PAGE STYLING START  ------------*/
+.contact-sec {
+  padding: 30px 0 24px;
+}
+.contact-sec ul li h2 {
+  font-size: 54px;
+  margin-bottom: 0;
+}
+.contact-sec .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-sec .links a {
+  color: #fff;
+}
+.contact-details {
+  background: #f0efeb;
+  padding-top: 42px;
+}
+.address-detail {
+  margin-top: 13px;
+}
+.address-detail h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.8;
+  font-family: "Crimson Pro";
+}
+.address-detail ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+.address-detail ul li i {
+  font-size: 20px;
+  color: #e63b2b;
+  padding-right: 18px;
+}
+.address-detail ul li .place p {
+  font-size: 17px;
+  line-height: 28.9px;
+}
+.address-detail ul li .place p a {
+  color: #e63b2b;
+  word-break: break-all;
+}
+.address-detail:last-child {
+  margin-bottom: 58px;
+}
+.contact-details hr {
+  border-top: 1px solid rgb(24 22 23 / 20%);
+}
+.contact-form {
+  background: #fff;
+  /*height: 100%;*/
+  padding: 63px 74px 103px;
+}
+.contact-form h2 {
+  font-size: 45px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+}
+.contact-form p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #181716;
+  margin: 8px 0 22px;
+}
+.canadian-form label {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #181716;
+  margin-bottom: 0px;
+}
+.canadian-form input,
+.canadian-form textarea {
+  height: 50px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #9ea0a4 !important;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  width: 100%;
+  padding: 8px 15px;
+}
+.canadian-form textarea {
+  height: 100%;
+}
+.canadian-form .contact-submit {
+  padding: 13px 29px;
+  line-height: 17px;
+  font-size: 14px;
+  background: #e63b2b;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.canadian-form .contact-submit:hover {
+  background: #181617;
+}
+.address-detail ul li.home-address i {
+  padding-top: 6px;
+}
+.address-detail ul li.fon i {
+  padding-top: 7px;
+}
+.address-detail ul li.fax i {
+  padding-top: 3px;
+}
+.address-detail ul li.info-icon i {
+  padding-top: 4px;
+}
+/*------------ CONTACT-PAGE STYLING END  ------------*/
+
+/* COVID-19-PAGE START */
+.covid-sec .ontario-health {
+  margin-top: 0;
+}
+.covid-sec .ontario-health .enrol-btn {
+  max-width: 505px;
+  margin-bottom: 78px;
+}
+.covid-sec .ontario-health .enrol-btn i {
+  font-size: 18px;
+  padding-right: 8px;
+}
+/* COVID-19-PAGE END */
+
+/* SERVICES-PAGE START */
+.healthcare-services .row {
+  justify-content: center;
+}
+.services-enroll {
+  background-image: url("../images/counters-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 63px;
+}
+.services-enroll h2 {
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  line-height: 1;
+  font-size: 45px;
+}
+.services-enroll p {
+  font-size: 17px;
+  padding: 20px 0 18px;
+}
+.qstn-contact {
+  font-size: 14px;
+  padding: 15px 40px;
+  color: #fff;
+}
+.qstn-contact i {
+  padding-left: 8px;
+}
+/* SERVICES-PAGE END */
+
+/* PUBLICATIONS-PAGE START  */
+.insurance-trend-qstn {
+  padding: 80px 0;
+}
+.ins-trend {
+  /*padding-top: 85px;*/
+  padding-bottom: 30px;
+}
+.ins-trend h2 a {
+  font-size: 26px;
+  color: #e63b2b;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  line-height: 1.4;
+  display: block;
+  min-height: 72px;
+}
+.ins-trend span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #181716;
+  margin-bottom: 23px;
+  padding: 6px 0 16px;
+  display: block;
+  border-bottom: 1px solid #e2e2e2;
+}
+.ins-trend p {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #181716;
+}
+/* PUBLICATIONS-PAGE END  */
+
+/* PRIVACY-POLICY-PAGE START  */
+.privacy-policy-sec {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.privacy-content {
+  margin-top: 32px;
+  margin-right: 12px;
+}
+.privacy-content h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+}
+.privacy-content p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #181716;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.privacy-content p a {
+  color: #e63b2b;
+}
+.privacy-content strong {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.privacy-content ul {
+  padding-left: 40px;
+}
+.privacy-content ul li {
+  list-style: disc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.privacy-content ul ul li {
+  list-style: circle;
+}
+.privacy-policy-sec .col-md-4.col-sm-12 {
+  padding: 0;
+}
+.quick-jump {
+  padding: 47px 30px 33px 32px;
+  background-color: rgb(240, 239, 235);
+  margin-top: 20px;
+  border-radius: 20px 0px;
+  box-shadow: rgb(0 0 0 / 13%) 0px 20px 32px 0px;
+}
+.quick-jump h2 {
+  margin-bottom: 36px;
+  font-family: "Crimson Pro";
+  font-weight: 500;
+  font-size: 35px;
+}
+.quick-jump ul li {
+  padding-bottom: 13px;
+}
+.quick-jump ul li a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #e63b2b;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+.quick-jump ul li a i {
+  height: 27.2px;
+  width: 27.2px;
+  margin-right: 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e63b2b;
+}
+/* PRIVACY-POLICY-PAGE START  */
+
+/* MAGNIFIC POPUP Start  */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+  z-index: 9999999 !important;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+/* MAGNIFIC POPUP Start  */
+/*211012*/
+.prev-next-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*211012 end*/
+
+/***********************payer-provide-admin page start here*********************************/
+
+/*211020*/
+
+.main-page-wrap {
+  margin-top: 200px;
+}
+.page-header {
+  background: #e63b2b;
+  padding: 100px 0;
+  text-align: center;
+}
+.page-header h4 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.head-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-col {
+  padding: 25px 15px;
+  width: 190px;
+  position: relative;
+}
+.head-col span {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
+  position: relative;
+  background: #e63b2b;
+  z-index: 5;
+}
+.head-col:not(:last-child)::after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 2px;
+  left: 50%;
+  top: 33px;
+  z-index: 1;
+}
+.head-col h6 {
+  color: #fff;
+}
+.enroll-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enroll-col {
+  padding: 25px 15px;
+  width: 190px;
+  position: relative;
+  text-align: center;
+}
+.enroll-col span {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 8px;
+  border-radius: 50%;
+  position: relative;
+  background: #000;
+  z-index: 5;
+}
+.enroll-col:not(:last-child)::after {
+  position: absolute;
+  content: "";
+  background: #000;
+  width: 100%;
+  height: 2px;
+  /* left: 50%; */
+  top: 33px;
+  z-index: 1;
+}
+.enroll-col h6 {
+  color: #000;
+}
+.enroll-content-wrap {
+  background: #fff;
+  margin-top: -50px;
+  padding: 50px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.enroll-content-outer {
+  background: #e3e2e2;
+  padding-bottom: 100px;
+}
+.yes-no-buttons {
+  padding: 0 0 0 14px;
+}
+.cstm-radio-label {
+  position: relative;
+  cursor: pointer;
+  padding: 0 20px 0 10px;
+  margin-bottom: 0;
+}
+.cstm-radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.cstm-radio-label .checkmark {
+  position: absolute;
+  top: 2px;
+  left: -15px;
+  height: 17px;
+  width: 17px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cstm-radio-label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #000;
+}
+.cstm-radio-label input:checked ~ .checkmark:after {
+  display: block;
+}
+.cstm-radio-label input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+.enroll-label {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0 10px 0;
+  margin-bottom: 0;
+}
+.enroll-content-wrap .enrol-btn {
+  width: max-content;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.enrol-login-form .form-group:not(:last-child) {
+  padding-right: 50px;
+}
+.enrol-login-form .form-group input {
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.enrol-login-form .or-span {
+  position: relative;
+  font-weight: 700;
+}
+.enrol-login-form .or-span::after {
+  position: absolute;
+  content: "OR";
+  top: 46px;
+  right: -91px;
+  display: inline-block;
+}
+.enroll-cstm-form-heading span {
+  display: inline-block;
+  padding-right: 15px;
+  background-color: #fff;
+}
+.enroll-cstm-form-heading {
+  font-size: 22px;
+  color: #e63b2b;
+  margin-top: 15px;
+  position: relative;
+  z-index: 5;
+}
+.enroll-cstm-form-heading::before {
+  position: absolute;
+  content: "";
+  background: #cbcbcb;
+  width: 100%;
+  height: 2px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.enroll-label.label-inv {
+  visibility: hidden;
+}
+.select-wrap select {
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+  background-size: 15px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.select-wrap {
+  width: 200px;
+}
+.credit-card-buttons {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.credit-card-buttons .cstm-radio-label:not(:last-child) {
+  padding-right: 50px;
+}
+
+/*211021*/
+
+.enroll-login-credit-form .cards-types {
+  width: 40%;
+}
+.enroll-login-credit-form .credit-name-sec {
+  width: 60%;
+}
+.enroll-login-credit-form .credit-name-sec > div {
+  width: 50%;
+}
+.enroll-login-credit-form .credit-name-sec input {
+  width: 275px;
+}
+.enrol-btn.en-cnt-btn,
+.enrol-btn.en-login-btn {
+  margin-top: 20px;
+}
+.family-buttons a {
+  background: #fff;
+  color: #e63b2b;
+  margin: 7px 0;
+}
+.family-buttons .hd-back-btn {
+  margin-right: 10px;
+}
+.family-buttons .hd-back-btn i {
+  padding-right: 10px;
+}
+.family-name h4 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #fff;
+  text-align: left;
+}
+.family-name p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  text-align: left;
+}
+.family-table {
+  border-bottom: 0px solid #dee2e600 !important;
+}
+.family-table thead th,
+.family-table tbody td {
+  border: none !important;
+  padding-left: 0 !important;
+}
+.family-table thead th {
+  padding-bottom: 0 !important;
+}
+.family-bottom-btn i {
+  padding-left: 10px;
+  color: #e63b2b;
+}
+.enrol-btn.family-bottom-btn {
+  background: #fff;
+  color: #e63b2b;
+  padding: 20px 0 0 0 !important;
+}
+.add-dental-service-btn,
+.delete-dental-service-btn {
+  border: none;
+  line-height: 21px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  background: #fff;
+  color: #e63b2b;
+}
+.add-dental-service-btn {
+  padding-top: 0px;
+}
+.family-buttons-bottom a {
+  background: #e63b2b;
+  color: #fff;
+}
+.family-buttons-bottom {
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+}
+.family-bottom-btn:hover,
+.family-bottom-btn:hover i {
+  color: #333;
+}
+.add-dental-service-btn:hover,
+.add-dental-service-btn:hover i,
+.delete-dental-service-btn:hover,
+.delete-dental-service-btn:hover i {
+  color: #333;
+  cursor: pointer;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.claim-submit {
+  align-items: center;
+}
+.claim-head-col {
+  padding: 25px 15px;
+  width: 190px;
+  position: relative;
+  text-align: center;
+}
+.claim-head-col span {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
+  position: relative;
+  background: #ccc;
+  z-index: 5;
+}
+.claim-head-col.active span {
+  background: #e63b2b;
+}
+.claim-head-col.done span {
+  background: #000;
+}
+.claim-head-col:not(:last-child)::after {
+  position: absolute;
+  content: "";
+  background: #ccc;
+  width: 100%;
+  height: 2px;
+  top: 33px;
+  z-index: 1;
+}
+.claim-head-col.done:not(:last-child)::after {
+  background: #000;
+}
+.claim-head-col.before-active:not(:last-child)::after {
+  background: #e63b2b;
+}
+.claim-head-col h6 {
+  color: #ccc;
+}
+.claim-head-col.done h6 {
+  color: #000;
+}
+.claim-head-col.active h6 {
+  color: #e63b2b;
+}
+@media only screen and (max-width: 600px) {
+  .claim-head-col h6 {
+    display: none;
+  }
+  .claim-head-col {
+    padding: 25px 0px;
+  }
+}
+
+.claim-form-heading {
+  color: #e63b2b;
+}
+
+.cancel-btn {
+  color: #e63b2b;
+  background: #e3e2e2;
+}
+
+.claim-provider-notes-container {
+  height: 130px;
+  width: 95%;
+  margin: 1em 0;
+}
+.claim-provider-notes-container textarea {
+  height: 100%;
+  width: 100%;
+}
+
+.table.claim-submission-table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.table.claim-submission-table thead {
+  background-color: #e3e2e2;
+}
+.table.claim-submission-table tbody tr td {
+  border-bottom: 1px solid #dee2e6;
+  border-top: none;
+}
+.table.claim-submission-table thead tr th {
+  font-weight: 500;
+}
+
+.fcb-payment-review h6 {
+  margin-top: 2rem;
+}
+
+.claim-step-8-table,
+.claim-eob-table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.claim-step-8-table th,
+.claim-eob-table th {
+  border: 1px solid #dee2e6;
+  background-color: #e3e2e2;
+  font-weight: 500;
+}
+
+.claim-step-8-table td {
+  border: 1px solid #dee2e6;
+  background-color: #e3e2e2;
+}
+
+.step8-claim-form .form-group {
+  padding-right: 1rem;
+  flex: 50%;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.claim-print {
+  color: #e63b2b;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 5px;
+  padding: 17px 40px;
+  line-height: 21px;
+}
+.claim-print .fa-print {
+  margin-right: 0.5em;
+}
+
+.eob-flex-container {
+  display: flex;
+}
+.eob-flex-container div {
+  flex: 50%;
+}
+.eob-provider-patient-details {
+  padding: 50px;
+}
+.eob-provider-patient-details .enroll-cstm-form-heading span {
+  background-color: #e3e2e2;
+}
+.eob-provider-patient-details .edit-prv-off-row {
+  padding-bottom: 20px;
+}
+.claim-eob-table th,
+.claim-eob-table td {
+  border: none;
+}
+.eob-amount {
+  font-weight: 500;
+  text-align: end;
+}
+.eob-amount.highlighted {
+  color: #e63b2b;
+  font-size: 1.3rem;
+  line-height: 0.7rem;
+  vertical-align: middle;
+}
+.claim-eob-details {
+  margin-bottom: 1em;
+}
+.claim-eob-details h5 {
+  margin-bottom: 0.5em;
+}
+.claim-eob-h5 {
+  color: #e63b2b;
+}
+.claim-eob-lines {
+  margin-top: 50px;
+}
+.claim-eob-lines h5 {
+  margin-bottom: 0.5em;
+}
+.claim-eob-lines .claim-eob-table th {
+  background-color: #fff;
+}
+.claim-eob-lines .claim-eob-table td {
+  border-bottom: 1px solid #cbcbcb;
+}
+.claim-eob-lines-footer,
+.view-claim-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.claim-heading {
+  margin-top: 50px;
+}
+.view-claim-btn {
+  color: #e63b2b;
+}
+.view-claim-btn:hover {
+  color: #000;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links .hidden {
+  display: none;
+}
+.navigation-links p {
+  font-size: 0.9em;
+  margin: 1em 0;
+}
+.navigation-links .text-gray-700 {
+  color: #e63b2b;
+}
+.navigation-links .text-gray-700:hover {
+  color: #000;
+}
+.navigation-links .border {
+  border: none !important;
+}
+
+.view-claim-header a {
+  margin-left: 1em;
+}
+
+.eob-alert-messages {
+  margin-top: 1em;
+}
+
+@media print {
+  .enroll-content-wrap {
+    margin-top: 1em;
+  }
+  .enroll-content-wrap div h4 {
+    margin-bottom: 1em;
+  }
+  .claim-submit {
+    display: none;
+  }
+  .claim-form-heading {
+    margin-bottom: 1em;
+  }
+  .claim-form-heading span {
+    display: none;
+  }
+  .cs-form-card,
+  .family-buttons {
+    display: none !important;
+  }
+  .step8-claim-form {
+    display: block !important;
+  }
+  .table.claim-submission-table thead tr th,
+  .claim-step-8-table th,
+  .claim-step-8-table td {
+    background-color: #e3e2e2 !important;
+  }
+  .claim-step-8-table {
+    margin-top: 2em;
+  }
+  .claim-eob-lines {
+    margin-top: 1em;
+  }
+  .enroll-content-wrap {
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .eob-provider-patient-details {
+    padding-right: 0;
+  }
+  .page-header {
+    padding: 1em 0;
+  }
+  .claim-eob-lines .claim-eob-table th {
+    background-color: #fff !important;
+  }
+  .claim-eob-lines .claim-eob-table td {
+    background-color: #e3e2e2 !important;
+  }
+  .claim-eob-table th {
+    background-color: #e3e2e2 !important;
+  }
+  .claim-print {
+    display: none;
+  }
+  .eob-alert-messages {
+    display: none;
+  }
+}
+
+.main-div .top-div.plan-members-top-div {
+  padding: 0;
+}
+
+.plan-members-list {
+  padding: 0 2em;
+  line-height: 1.7em;
+}
+.plan-members-list-heading {
+  color: #e63b2b;
+}
+.plan-members-list-content {
+  color: #000;
+}
+.plan-members-alt-bg {
+  background-color: #f0efeb;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.charities-image-zoom-container {
+  height: 140px;
+  width: 140px;
+  margin: auto;
+}
+.charities-image-container {
+  height: 140px;
+  width: 140px;
+}
+.charities-image-container img {
+  height: 140px;
+  width: auto;
+}
+
+/* Maps styles */
+.pac-container {
+  z-index: 1050;
+}
+.provider-search-error {
+  color: #e63b2b;
+  font-size: 14px;
+}
+.provider-search-error-close {
+  cursor: pointer;
+}
+.select-map-location {
+  font-size: 16px;
+  line-height: 20px;
+  color: #e63b2b;
+  cursor: pointer;
+}
+.select-map-location i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.highlighted-sec {
+  background-color: #f0efeb;
+  padding: 40px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  margin: 1.5em auto;
+}
+.highlighted-sec p {
+  font-size: 17px;
+  line-height: 1.3;
+  font-family: "Crimson";
+  font-style: italic;
+  color: #181617;
+  font-weight: 500;
+  margin: 0;
+}
+
+.text-red {
+  color: #e63b2b;
+}
+.text-red:hover {
+  color: #a81709;
+}
+
+.popup-btn .fa-file-pdf {
+  margin-right: 1em;
+}
+
+#terms_and_conditions-error {
+  position: absolute;
+  top: -20px;
+}
+
+.terms-conditions-container {
+  margin: 1em 0 !important;
+}
+
+.member-box{
+  padding: 20px;
+border: 1px solid #00000070;
+margin-bottom: 20px;
+box-shadow: 1px 1px 5px #0006;
+min-height: 230px;
+}
+.member-box img{
+  width: 100px;
+  height: 80px;
+}
+.member-box h4{
+  font-size: 18px;
+  color: rgb(230, 59, 43);
+  margin-bottom: 10px;
+}
+.member-box p{
+  font-size: 13px;
+  
+}
+
+.payor-sec .member-box{
+min-height: 270px;
+}
+
+.partner-box{
+padding: 40px;
+border-right: 5px solid rgb(230, 59, 43);
+border-bottom: 5px solid rgb(230, 59, 43);
+box-shadow: 1px 1px 5px #0006;
+min-height: 560px;
+}
+.partner-box img{
+  width: 230px;
+}
+.partner-box ul li{
+  list-style: disc;
+}
+
+.vendor-sec .experience-card{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.vendor-sec .experience-card li{
+ width: 32%;
+ margin-bottom: 0px;
+}
+
+#join-our-network .enrol-btn, #providers-sec .enrol-btn, .top-div .enrol-btn, .enroll-now-text{
+  display:none;
+}
+
+#counters-network .join-network, #saving-and-discount .enrol-btn{
+  display:none;
+}
+.mfp-iframe-holder .mfp-content{
+  max-width: none!important;
+}
+.network-provider-search{
+  background-color: #e63b2b;
+  padding: 5px;
+  border-radius: 5px;
+}
